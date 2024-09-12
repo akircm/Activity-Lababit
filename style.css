@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.parent{
+    height: 50%;
+    width: 50%;
+    display:flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.child{
+    height: 50%;
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child1{
+    background-color: aqua;
+}
+.child2{
+    background-color: aquamarine;
+}
+
+.parent2{
+    height: 50%;
+    width: 50%;
+    display:flex;
+    gap: 5px;
+}
+
+.childd{
+    height: 50%;
+    width: 50%;
+    display:flex;
+}
+.child3{
+    background-color: rgb(0, 225, 255);
+    justify-content: start;
+    align-items: end;
+}
+.child4{
+    background-color: aquamarine;
+    justify-content: end;
+    align-items: start;
+}
+
+.baby1{
+    height: 25%;
+    width: 25%;
+    background-color: blueviolet;
+}
+
+.baby2{
+    height: 25%;
+    width: 25%;
+    background-color: rgb(153, 88, 214);
+}
+
+.parent3{
+    height: 50%;
+    width: 50%;
+    display:flex;
+    gap: 5px;
+}
+
+.box{
+    height: 50%;
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child5{
+    background-color: blueviolet;
+}
+
+.child6{
+    background-color: lightblue;
+}
+.boxer{
+    height: 65%;
+    width: 25%;
+    background-color: rgb(85, 85, 175);
+}
+.child7{
+    background-color: blueviolet;
+}
+
+.parent4{
+    height: 50%;
+    width: 50%;
+    display:flex;
+    gap: 5px;
+}
+
+.boks{
+    height: 50%;
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.child8{
+    background-color: rgb(108, 108, 207);
+}
+
+.child9{
+    background-color: rgb(54, 54, 212);
+}
+
+.child10{
+    background-color: rgb(108, 108, 207);
+}
+
+.child11{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+.sboks1{
+    height: 50%;
+    width: 100%;
+    background-color: blueviolet;
+}
+.sboks2{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(10, 10, 221);
+}
